@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 64.5%;
+    min-height: 100vh;
+    background-color: #ff7f3f;
+    font-family: "DynaPuff", cursive;
+}
+
+.title {
+    font-size: 5rem;
+    text-align: center;
+    margin: 3rem 0;
+    color: #fff38c;
+    letter-spacing: 10px;
+}
+
+.title:hover {
+    color: #fbdf07;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    position: relative;
+}
+
+#p1 {
+    font-size: 3rem;
+    position: absolute;
+    top: 12%;
+    padding-right: 11rem;
+}
+
+#p2 {
+    font-size: 3rem;
+    position: absolute;
+    top: 12%;
+    padding-left: 11rem;
+}
+
+
+.left {
+    width: 20rem;
+    padding-right: 11rem;
+}
+
+.right {
+    width: 20rem;
+    padding-left: 11rem;
+}
+
+.roll-dice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.roll-dice2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.roll {
+    position: absolute;
+    bottom: 25%;
+    font-size: 1.8rem;
+    padding: 7px;
+    border: none;
+    border-radius: 5%;
+    background-color: #fdeedc;
+    color: #ff1e00;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
+}
+
+.roll:hover {
+    background-color: #ffd8a9;
+    transform: scale(1.2);
+}
+
+.dice {
+    width: 7rem;
+    display: none;
+}
+
